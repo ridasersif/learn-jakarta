@@ -10,10 +10,10 @@ export default function Footer() {
           {/* About */}
           <div>
             <h3 className="text-xl font-bold mb-4" style={{ color: "#f31500" }}>
-              Learn Jakarta
+              Rida Sersif
             </h3>
             <p className="text-gray-300 leading-relaxed">
-              Your comprehensive guide to mastering Jakarta EE. From setup to deployment, we've got you covered.
+              Hi, I'm Rida Sersif. I love working with Java, Jakarta EE, Angular, and Spring. I build modern web applications and enjoy learning new technologies.
             </p>
           </div>
 
@@ -29,18 +29,18 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="/tools" className="text-gray-300 hover:text-[#f31500] transition-colors">
-                  Tools
+                <a href="/projects" className="text-gray-300 hover:text-[#f31500] transition-colors">
+                  Projects
                 </a>
               </li>
               <li>
-                <a href="/setup" className="text-gray-300 hover:text-[#f31500] transition-colors">
-                  Setup Guide
+                <a href="/blog" className="text-gray-300 hover:text-[#f31500] transition-colors">
+                  Blog
                 </a>
               </li>
               <li>
-                <a href="/crud" className="text-gray-300 hover:text-[#f31500] transition-colors">
-                  CRUD Tutorial
+                <a href="/contact" className="text-gray-300 hover:text-[#f31500] transition-colors">
+                  Contact
                 </a>
               </li>
             </ul>
@@ -54,17 +54,17 @@ export default function Footer() {
             <ul className="space-y-3">
               <li className="flex items-center gap-2 text-gray-300">
                 <Mail className="w-4 h-4" style={{ color: "#f31500" }} />
-                <a href="mailto:your.email@example.com" className="hover:text-[#f31500] transition-colors">
-                  your.email@example.com
+                <a href="mailto:ridasersif1@gmail.com" className="hover:text-[#f31500] transition-colors">
+                  ridasersif1@gmail.com
                 </a>
               </li>
               <li className="flex items-center gap-2 text-gray-300">
                 <Phone className="w-4 h-4" style={{ color: "#f31500" }} />
-                <span>+1 (555) 123-4567</span>
+                <span>+212 650 052 037</span>
               </li>
               <li className="flex items-center gap-4 mt-4">
                 <a
-                  href="https://linkedin.com/in/yourprofile"
+                  href="https://www.linkedin.com/in/rida-sersif-721497330/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-[#f31500] transition-colors"
@@ -73,7 +73,7 @@ export default function Footer() {
                   <Linkedin className="w-5 h-5" />
                 </a>
                 <a
-                  href="https://github.com/yourusername"
+                  href="https://github.com/ridasersif"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-[#f31500] transition-colors"
@@ -82,7 +82,7 @@ export default function Footer() {
                   <Github className="w-5 h-5" />
                 </a>
                 <a
-                  href="https://yourportfolio.com"
+                  href="https://sersif-rida.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-[#f31500] transition-colors"
@@ -96,7 +96,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-8 pt-8 border-t border-gray-800 text-center text-gray-400">
-          <p>&copy; {currentYear} Learn Jakarta. All rights reserved. Built for educational purposes.</p>
+          <p>&copy; {currentYear} Rida Sersif. All rights reserved. Built for educational purposes.</p>
         </div>
       </div>
     </footer>
